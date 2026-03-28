@@ -1,0 +1,18 @@
+2026-03-27 22:30:53 - ArthmeticApp - DEBUG - Adding 10+15= 25
+2026-03-27 22:30:53 - ArthmeticApp - DEBUG - Subtracting 15-10= 5
+2026-03-27 22:30:53 - ArthmeticApp - DEBUG - Multipling 3*5= 15
+2026-03-27 22:30:53 - ArthmeticApp - DEBUG - Dividing 15/5= 3.0
+2026-03-27 22:30:53 - ArthmeticApp - DEBUG - 5 to the Power of 2= 25
+2026-03-27 22:30:53 - ArthmeticApp - ERROR - Division By Zero Error
+2026-03-27 22:31:01 - ArthmeticApp - DEBUG - Adding 10+15= 25
+2026-03-27 22:31:01 - ArthmeticApp - DEBUG - Subtracting 15-10= 5
+2026-03-27 22:31:01 - ArthmeticApp - DEBUG - Multipling 3*5= 15
+2026-03-27 22:31:01 - ArthmeticApp - DEBUG - Dividing 15/5= 3.0
+2026-03-27 22:31:01 - ArthmeticApp - DEBUG - 5 to the Power of 2= 25
+2026-03-27 22:31:01 - ArthmeticApp - ERROR - Division By Zero Error
+2026-03-27 22:31:03 - ArthmeticApp - DEBUG - Adding 10+15= 25
+2026-03-27 22:31:03 - ArthmeticApp - DEBUG - Subtracting 15-10= 5
+2026-03-27 22:31:03 - ArthmeticApp - DEBUG - Multipling 3*5= 15
+2026-03-27 22:31:03 - ArthmeticApp - DEBUG - Dividing 15/5= 3.0
+2026-03-27 22:31:03 - ArthmeticApp - DEBUG - 5 to the Power of 2= 25
+2026-03-27 22:31:03 - ArthmeticApp - ERROR - Division By Zero Error
