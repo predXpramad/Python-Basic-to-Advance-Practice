@@ -1,0 +1,48 @@
+<style>
+    .result-section {
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        padding: 20px;
+        background-color: white;
+        max-width: 400px;
+        margin: auto;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        font-family: Arial, sans-serif;
+    }
+    th, td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    .passed { color: #2ecc71; font-weight: bold; }
+    .failed { color: #e74c3c; font-weight: bold; }
+    .invalid { color: darkred; font-weight: bold;}
+</style>
+
+<section class="result-section">
+    <h2>Result Summary</h2>
+    
+    <table>
+        <tr>
+            <th>Score</th>
+            <td>{{ scores }}</td>
+        </tr>
+        <tr>
+            <th>Result</th>
+            <td>
+                {% if scores >= 50 and scores <= 100 %}
+                    <span class="passed">Passed</span>
+                {% elif scores <= 50 and scores >= 0 %}
+                    <span class="failed">Failed</span>
+                {% else %}
+                    <span class="invalid">Invalid</span>
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+</section>
